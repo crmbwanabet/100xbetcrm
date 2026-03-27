@@ -1,0 +1,12 @@
+{
+  "name": "100xbet-crm-extractor",
+  "version": "1.0.0",
+  "description": "Extract ViperPro data and push to 100xBet CRM",
+  "main": "extract_and_push.js",
+  "scripts": {
+    "extract": "node extract_and_push.js"
+  },
+  "dependencies": {
+    "mysql2": "^3.9.0"
+  }
+}
