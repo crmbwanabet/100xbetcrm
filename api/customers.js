@@ -113,7 +113,7 @@ function cleanRecord(raw) {
     }
   }
 
-  if (!record.currency) record.currency = 'EUR';
+  if (!record.currency) record.currency = 'ZMW';
   return record;
 }
 

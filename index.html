@@ -454,9 +454,9 @@
             <button class="tutorial-btn" onclick="showTutorial('financial')">?</button>
           </div>
           <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
-            <div class="p-4 bg-emerald-50 rounded-xl"><p class="text-sm text-emerald-600"><i data-lucide="arrow-down-circle" class="h-4 w-4 inline"></i> <span data-translate="totalDeposits">Deposits</span></p><p class="text-2xl font-bold text-emerald-700" id="fin-deposits">€0</p></div>
-            <div class="p-4 bg-red-50 rounded-xl"><p class="text-sm text-red-600"><i data-lucide="arrow-up-circle" class="h-4 w-4 inline"></i> <span data-translate="totalWithdrawals">Withdrawals</span></p><p class="text-2xl font-bold text-red-700" id="fin-withdrawals">€0</p></div>
-            <div class="p-4 bg-blue-50 rounded-xl"><p class="text-sm text-blue-600"><i data-lucide="wallet" class="h-4 w-4 inline"></i> <span data-translate="netRevenue">Net GGR</span></p><p class="text-2xl font-bold text-blue-700" id="fin-net">€0</p></div>
+            <div class="p-4 bg-emerald-50 rounded-xl"><p class="text-sm text-emerald-600"><i data-lucide="arrow-down-circle" class="h-4 w-4 inline"></i> <span data-translate="totalDeposits">Deposits</span></p><p class="text-2xl font-bold text-emerald-700" id="fin-deposits">K0</p></div>
+            <div class="p-4 bg-red-50 rounded-xl"><p class="text-sm text-red-600"><i data-lucide="arrow-up-circle" class="h-4 w-4 inline"></i> <span data-translate="totalWithdrawals">Withdrawals</span></p><p class="text-2xl font-bold text-red-700" id="fin-withdrawals">K0</p></div>
+            <div class="p-4 bg-blue-50 rounded-xl"><p class="text-sm text-blue-600"><i data-lucide="wallet" class="h-4 w-4 inline"></i> <span data-translate="netRevenue">Net GGR</span></p><p class="text-2xl font-bold text-blue-700" id="fin-net">K0</p></div>
           </div>
         </div>
 
@@ -561,10 +561,10 @@
         </div>
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
           <div class="clickable-card bg-gradient-to-br from-emerald-500 to-emerald-600 rounded-xl p-6 text-white" onclick="showFilteredPlayers('profitable','Profitable')">
-            <h3 class="text-xl font-bold" data-translate="profitablePlayers">Profitable</h3><p class="text-5xl font-bold mt-2" id="profit-count">0</p><p class="text-emerald-100 mt-2"><span data-translate="companyProfit">Profit</span>: <span id="profit-amount">€0</span></p>
+            <h3 class="text-xl font-bold" data-translate="profitablePlayers">Profitable</h3><p class="text-5xl font-bold mt-2" id="profit-count">0</p><p class="text-emerald-100 mt-2"><span data-translate="companyProfit">Profit</span>: <span id="profit-amount">K0</span></p>
           </div>
           <div class="clickable-card bg-gradient-to-br from-red-500 to-red-600 rounded-xl p-6 text-white" onclick="showFilteredPlayers('negative_ggr','Negative GGR')">
-            <h3 class="text-xl font-bold" data-translate="negativeGgrPlayers">Negative GGR</h3><p class="text-5xl font-bold mt-2" id="negative-ggr-count">0</p><p class="text-red-100 mt-2"><span data-translate="companyLoss">Loss</span>: <span id="negative-ggr-amount">€0</span></p>
+            <h3 class="text-xl font-bold" data-translate="negativeGgrPlayers">Negative GGR</h3><p class="text-5xl font-bold mt-2" id="negative-ggr-count">0</p><p class="text-red-100 mt-2"><span data-translate="companyLoss">Loss</span>: <span id="negative-ggr-amount">K0</span></p>
           </div>
         </div>
         <div class="bg-white rounded-xl shadow-sm p-5">
@@ -608,9 +608,9 @@
           <button class="tutorial-btn" onclick="showTutorial('style_cards')">?</button>
         </div>
         <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
-          <div class="clickable-card bg-gradient-to-br from-amber-500 to-amber-600 rounded-xl p-5 text-white" onclick="showFilteredPlayers('style_highroller','High Rollers')"><h3 class="font-bold" data-translate="highRollers">High Rollers</h3><p class="text-white/80 text-sm" data-translate="avgBetOver100">Avg bet >€100</p><p class="text-4xl font-bold mt-2" id="style-highroller">0</p></div>
-          <div class="clickable-card bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl p-5 text-white" onclick="showFilteredPlayers('style_regular','Regular')"><h3 class="font-bold" data-translate="regularBettors">Regular</h3><p class="text-white/80 text-sm" data-translate="avgBet10to100">Avg bet €10-100</p><p class="text-4xl font-bold mt-2" id="style-regular">0</p></div>
-          <div class="clickable-card bg-gradient-to-br from-slate-500 to-slate-600 rounded-xl p-5 text-white" onclick="showFilteredPlayers('style_casual','Casual')"><h3 class="font-bold" data-translate="casualPlayers">Casual</h3><p class="text-white/80 text-sm" data-translate="avgBetUnder10">Avg bet <€10</p><p class="text-4xl font-bold mt-2" id="style-casual">0</p></div>
+          <div class="clickable-card bg-gradient-to-br from-amber-500 to-amber-600 rounded-xl p-5 text-white" onclick="showFilteredPlayers('style_highroller','High Rollers')"><h3 class="font-bold" data-translate="highRollers">High Rollers</h3><p class="text-white/80 text-sm" data-translate="avgBetOver100">Avg bet >K100</p><p class="text-4xl font-bold mt-2" id="style-highroller">0</p></div>
+          <div class="clickable-card bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl p-5 text-white" onclick="showFilteredPlayers('style_regular','Regular')"><h3 class="font-bold" data-translate="regularBettors">Regular</h3><p class="text-white/80 text-sm" data-translate="avgBet10to100">Avg bet K10-100</p><p class="text-4xl font-bold mt-2" id="style-regular">0</p></div>
+          <div class="clickable-card bg-gradient-to-br from-slate-500 to-slate-600 rounded-xl p-5 text-white" onclick="showFilteredPlayers('style_casual','Casual')"><h3 class="font-bold" data-translate="casualPlayers">Casual</h3><p class="text-white/80 text-sm" data-translate="avgBetUnder10">Avg bet <K10</p><p class="text-4xl font-bold mt-2" id="style-casual">0</p></div>
         </div>
         <div class="bg-white rounded-xl shadow-sm p-5">
           <div class="flex items-center gap-2 mb-4">
@@ -655,8 +655,8 @@
           <button class="tutorial-btn" onclick="showTutorial('churn_factors')">?</button>
         </div>
         <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-6">
-          <div class="clickable-card bg-gradient-to-br from-red-500 to-red-600 rounded-xl p-5 text-white" onclick="showFilteredPlayers('churn_critical','Critical')"><h3 class="font-bold" data-translate="critical">Critical</h3><p class="text-red-100 text-sm" data-translate="over30Days">30+ days</p><p class="text-4xl font-bold mt-2" id="churn-d-critical">0</p><p class="text-sm text-red-100"><span data-translate="atRisk">At risk</span>: <span id="churn-critical-value">€0</span></p></div>
-          <div class="clickable-card bg-gradient-to-br from-orange-500 to-orange-600 rounded-xl p-5 text-white" onclick="showFilteredPlayers('churn_high','High')"><h3 class="font-bold" data-translate="highRisk">High</h3><p class="text-orange-100 text-sm" data-translate="days14to30">14-30 days</p><p class="text-4xl font-bold mt-2" id="churn-d-high">0</p><p class="text-sm text-orange-100"><span data-translate="atRisk">At risk</span>: <span id="churn-high-value">€0</span></p></div>
+          <div class="clickable-card bg-gradient-to-br from-red-500 to-red-600 rounded-xl p-5 text-white" onclick="showFilteredPlayers('churn_critical','Critical')"><h3 class="font-bold" data-translate="critical">Critical</h3><p class="text-red-100 text-sm" data-translate="over30Days">30+ days</p><p class="text-4xl font-bold mt-2" id="churn-d-critical">0</p><p class="text-sm text-red-100"><span data-translate="atRisk">At risk</span>: <span id="churn-critical-value">K0</span></p></div>
+          <div class="clickable-card bg-gradient-to-br from-orange-500 to-orange-600 rounded-xl p-5 text-white" onclick="showFilteredPlayers('churn_high','High')"><h3 class="font-bold" data-translate="highRisk">High</h3><p class="text-orange-100 text-sm" data-translate="days14to30">14-30 days</p><p class="text-4xl font-bold mt-2" id="churn-d-high">0</p><p class="text-sm text-orange-100"><span data-translate="atRisk">At risk</span>: <span id="churn-high-value">K0</span></p></div>
           <div class="clickable-card bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-xl p-5 text-white" onclick="showFilteredPlayers('churn_medium','Medium')"><h3 class="font-bold" data-translate="mediumRisk">Medium</h3><p class="text-yellow-100 text-sm" data-translate="days7to14">7-14 days</p><p class="text-4xl font-bold mt-2" id="churn-d-medium">0</p></div>
           <div class="clickable-card bg-gradient-to-br from-emerald-500 to-emerald-600 rounded-xl p-5 text-white" onclick="showFilteredPlayers('churn_low','Low')"><h3 class="font-bold" data-translate="lowRisk">Low</h3><p class="text-emerald-100 text-sm" data-translate="lessThan7Days"><7 days</p><p class="text-4xl font-bold mt-2" id="churn-d-low">0</p></div>
         </div>
@@ -747,8 +747,8 @@
               <p class="text-xs text-slate-500 mb-1" data-translate="totalDeposits">Total Deposits</p>
               <div class="flex items-end justify-between">
                 <div>
-                  <p class="text-xl font-bold text-emerald-600" id="comp-deposits-p1">€0</p>
-                  <p class="text-sm text-slate-500" id="comp-deposits-p2">vs €0</p>
+                  <p class="text-xl font-bold text-emerald-600" id="comp-deposits-p1">K0</p>
+                  <p class="text-sm text-slate-500" id="comp-deposits-p2">vs K0</p>
                 </div>
                 <div id="comp-deposits-change" class="text-sm font-medium"></div>
               </div>
@@ -759,8 +759,8 @@
               <p class="text-xs text-slate-500 mb-1" data-translate="totalWithdrawals">Total Withdrawals</p>
               <div class="flex items-end justify-between">
                 <div>
-                  <p class="text-xl font-bold text-red-600" id="comp-withdrawals-p1">€0</p>
-                  <p class="text-sm text-slate-500" id="comp-withdrawals-p2">vs €0</p>
+                  <p class="text-xl font-bold text-red-600" id="comp-withdrawals-p1">K0</p>
+                  <p class="text-sm text-slate-500" id="comp-withdrawals-p2">vs K0</p>
                 </div>
                 <div id="comp-withdrawals-change" class="text-sm font-medium"></div>
               </div>
@@ -771,8 +771,8 @@
               <p class="text-xs text-slate-500 mb-1" data-translate="netGgr">Net GGR</p>
               <div class="flex items-end justify-between">
                 <div>
-                  <p class="text-xl font-bold text-blue-600" id="comp-ggr-p1">€0</p>
-                  <p class="text-sm text-slate-500" id="comp-ggr-p2">vs €0</p>
+                  <p class="text-xl font-bold text-blue-600" id="comp-ggr-p1">K0</p>
+                  <p class="text-sm text-slate-500" id="comp-ggr-p2">vs K0</p>
                 </div>
                 <div id="comp-ggr-change" class="text-sm font-medium"></div>
               </div>
@@ -783,8 +783,8 @@
               <p class="text-xs text-slate-500 mb-1" data-translate="avgDeposit">Avg Deposit</p>
               <div class="flex items-end justify-between">
                 <div>
-                  <p class="text-xl font-bold text-slate-800" id="comp-avgDeposit-p1">€0</p>
-                  <p class="text-sm text-slate-500" id="comp-avgDeposit-p2">vs €0</p>
+                  <p class="text-xl font-bold text-slate-800" id="comp-avgDeposit-p1">K0</p>
+                  <p class="text-sm text-slate-500" id="comp-avgDeposit-p2">vs K0</p>
                 </div>
                 <div id="comp-avgDeposit-change" class="text-sm font-medium"></div>
               </div>
@@ -1013,7 +1013,7 @@
               <div class="p-4 cursor-pointer" onclick="showPlayerList('vip')">
                 <div class="flex items-center justify-between mb-2">
                   <span class="text-xs font-semibold text-purple-600 uppercase tracking-wide">👑 VIP</span>
-                  <span class="text-xs text-slate-400">€5,000+</span>
+                  <span class="text-xs text-slate-400">K5,000+</span>
                 </div>
                 <p class="text-3xl font-bold text-slate-800" id="plist-count-vip">—</p>
                 <p class="text-xs text-slate-500 mt-1">High value real players</p>
@@ -2254,9 +2254,9 @@
                       <h4 class="font-semibold text-slate-700 mb-3 flex items-center gap-2"><i data-lucide="gift" class="h-4 w-4 text-slate-500"></i>Offers & Bonuses</h4>
                       <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <div><label class="block text-xs font-medium text-slate-600 mb-1">Offer 1 Name</label><input id="va-sb-offer1-name" type="text" placeholder="100% Match Bonus" class="w-full px-3 py-2 border rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-slate-400"></div>
-                        <div><label class="block text-xs font-medium text-slate-600 mb-1">Offer 1 Details</label><input id="va-sb-offer1-details" type="text" placeholder="Up to €500 on your next deposit" class="w-full px-3 py-2 border rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-slate-400"></div>
+                        <div><label class="block text-xs font-medium text-slate-600 mb-1">Offer 1 Details</label><input id="va-sb-offer1-details" type="text" placeholder="Up to K500 on your next deposit" class="w-full px-3 py-2 border rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-slate-400"></div>
                         <div><label class="block text-xs font-medium text-slate-600 mb-1">Offer 2 Name (optional)</label><input id="va-sb-offer2-name" type="text" placeholder="Free Bet" class="w-full px-3 py-2 border rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-slate-400"></div>
-                        <div><label class="block text-xs font-medium text-slate-600 mb-1">Offer 2 Details (optional)</label><input id="va-sb-offer2-details" type="text" placeholder="€50 free football bet" class="w-full px-3 py-2 border rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-slate-400"></div>
+                        <div><label class="block text-xs font-medium text-slate-600 mb-1">Offer 2 Details (optional)</label><input id="va-sb-offer2-details" type="text" placeholder="K50 free football bet" class="w-full px-3 py-2 border rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-slate-400"></div>
                         <div class="md:col-span-2"><label class="block text-xs font-medium text-slate-600 mb-1">How to Claim</label><input id="va-sb-claim" type="text" placeholder="Log into the app or visit our website" class="w-full px-3 py-2 border rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-slate-400"></div>
                       </div>
                     </div>
@@ -2634,11 +2634,11 @@ BEHAVIOUR RULES:
             </div>
             <div class="bg-white rounded-xl p-4" style="border:1px solid #e2e8f0;">
               <p class="text-xs text-slate-400 uppercase tracking-wider mb-1">Losses This Week</p>
-              <div class="flex items-center gap-2"><span class="text-2xl font-extrabold" id="trend-losses-val">€0</span><span id="trend-losses-change" class="text-xs font-bold trend-flat">—</span></div>
+              <div class="flex items-center gap-2"><span class="text-2xl font-extrabold" id="trend-losses-val">K0</span><span id="trend-losses-change" class="text-xs font-bold trend-flat">—</span></div>
             </div>
             <div class="bg-white rounded-xl p-4" style="border:1px solid #e2e8f0;">
               <p class="text-xs text-slate-400 uppercase tracking-wider mb-1">Earnings This Week</p>
-              <div class="flex items-center gap-2"><span class="text-2xl font-extrabold" id="trend-earnings-val">€0</span><span id="trend-earnings-change" class="text-xs font-bold trend-flat">—</span></div>
+              <div class="flex items-center gap-2"><span class="text-2xl font-extrabold" id="trend-earnings-val">K0</span><span id="trend-earnings-change" class="text-xs font-bold trend-flat">—</span></div>
             </div>
             <div class="bg-white rounded-xl p-4" style="border:1px solid #e2e8f0;">
               <p class="text-xs text-slate-400 uppercase tracking-wider mb-1">New Agents (30d)</p>
@@ -2690,7 +2690,7 @@ BEHAVIOUR RULES:
               </div>
               <div>
                 <p class="text-xs font-medium text-slate-400 uppercase tracking-wider">Losses</p>
-                <p class="text-xl font-extrabold text-slate-800 leading-tight" id="agent-total-losses">€0</p>
+                <p class="text-xl font-extrabold text-slate-800 leading-tight" id="agent-total-losses">K0</p>
               </div>
             </div>
             <div class="bg-white rounded-xl p-4 flex items-center gap-3" style="border: 1px solid #fecaca;">
@@ -2699,7 +2699,7 @@ BEHAVIOUR RULES:
               </div>
               <div>
                 <p class="text-xs font-medium text-slate-400 uppercase tracking-wider">Owed</p>
-                <p class="text-xl font-extrabold text-red-600 leading-tight" id="agent-pending-payments">€0</p>
+                <p class="text-xl font-extrabold text-red-600 leading-tight" id="agent-pending-payments">K0</p>
               </div>
             </div>
           </div>
@@ -2713,7 +2713,7 @@ BEHAVIOUR RULES:
               <div class="p-4 text-center">
                 <div class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-blue-50 text-blue-600 text-[10px] font-bold uppercase tracking-wider mb-2">Plan A</div>
                 <p class="text-2xl font-extrabold text-slate-800" id="agent-plan-a-count">0</p>
-                <p class="text-xs text-slate-400 mt-0.5">Per-Client · €100</p>
+                <p class="text-xs text-slate-400 mt-0.5">Per-Client · K100</p>
               </div>
               <div class="p-4 text-center">
                 <div class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-purple-50 text-purple-600 text-[10px] font-bold uppercase tracking-wider mb-2">Plan B</div>
@@ -2837,7 +2837,7 @@ BEHAVIOUR RULES:
                 <div>
                   <label class="block text-xs font-medium text-slate-700 mb-1">Commission Plan *</label>
                   <select id="newAgentPlan" class="w-full px-3 py-2 border rounded-lg text-sm bg-white">
-                    <option value="per_client">Plan A: €100 per qualifying client</option>
+                    <option value="per_client">Plan A: K100 per qualifying client</option>
                     <option value="loss_based">Plan B: 20% of player losses</option>
                     <option value="nil">Plan C: Nil (tracking only)</option>
                   </select>
@@ -2966,7 +2966,7 @@ BEHAVIOUR RULES:
                   <p class="text-xs text-emerald-600">User ID, Phone Number, Agent Code, First Deposit Amount, Total Deposit Amount, Total Bet Sports, Total Bet Casino, Total Bet, Losses</p>
                   <div class="mt-2 p-2 bg-white rounded border">
                     <p class="text-xs font-medium text-slate-700">Commission Rules:</p>
-                    <p class="text-xs text-slate-600"><strong>Plan A:</strong> €100 per client with deposit ≥€100 AND (sports bet ≥€100 OR casino bet ≥€100)</p>
+                    <p class="text-xs text-slate-600"><strong>Plan A:</strong> K100 per client with deposit ≥K100 AND (sports bet ≥K100 OR casino bet ≥K100)</p>
                     <p class="text-xs text-slate-600"><strong>Plan B:</strong> 20% of total player losses</p>
                     <p class="text-xs text-slate-600"><strong>Plan C:</strong> No commission (tracking only)</p>
                   </div>
@@ -2992,7 +2992,7 @@ BEHAVIOUR RULES:
                   </select>
                 </div>
                 <div class="p-3 bg-slate-50 rounded-lg">
-                  <div class="flex justify-between text-sm"><span class="text-slate-600">Balance:</span><span class="font-bold" id="paymentAgentBalance">€0</span></div>
+                  <div class="flex justify-between text-sm"><span class="text-slate-600">Balance:</span><span class="font-bold" id="paymentAgentBalance">K0</span></div>
                 </div>
                 <div>
                   <label class="block text-xs font-medium text-slate-700 mb-1">Amount (K)</label>
@@ -3252,7 +3252,7 @@ BEHAVIOUR RULES:
               <div>
                 <label class="block text-xs font-medium text-slate-700 mb-1">Commission Plan</label>
                 <select id="editAgentPlan" class="w-full px-3 py-2 border rounded-lg text-sm bg-white">
-                  <option value="per_client">Plan A: €100 per qualifying client</option>
+                  <option value="per_client">Plan A: K100 per qualifying client</option>
                   <option value="loss_based">Plan B: 20% of player losses</option>
                   <option value="nil">Plan C: Nil (tracking only)</option>
                 </select>
@@ -3474,13 +3474,13 @@ BEHAVIOUR RULES:
         totalPlayers: 'Total Players', profitablePlayers: 'Profitable Players', negativeGgrPlayers: 'Negative GGR Players', atRisk: 'At Risk', clickToView: 'Click to view →',
         financialOverview: 'Financial Overview', totalDeposits: 'Total Deposits', totalWithdrawals: 'Total Withdrawals', netRevenue: 'Net Revenue (GGR)',
         playerPreferences: 'Player Preferences', sportsBettors: 'Sports Bettors', casinoPlayers: 'Casino Players', mixedPlayers: 'Mixed Players',
-        valueSegments: 'Value Segments', vip: 'VIP (€5k+)', highValue: 'High (€1k-€5k)', mediumValue: 'Medium (€100-€1k)', lowValue: 'Low (<€100)',
+        valueSegments: 'Value Segments', vip: 'VIP (K5k+)', highValue: 'High (K1k-K5k)', mediumValue: 'Medium (K100-K1k)', lowValue: 'Low (<K100)',
         churnRisk: 'Churn Risk', lowRisk: 'Low Risk', mediumRisk: 'Medium', highRisk: 'High Risk', critical: 'Critical',
         playerProfitabilityAnalysis: 'Player Profitability Analysis', lostMoreThanWon: 'Lost more than won', wonMoreThanLost: 'Won more than lost',
         companyProfit: 'Company profit', companyLoss: 'Company loss', winRateDistribution: 'Win Rate Distribution',
         profitable: 'Profitable', negativeGgr: 'Negative GGR', breakEven: 'Break Even', mostProfitable: 'Most Profitable',
         playerBehavior: 'Player Behavior', highRollers: 'High Rollers', regularBettors: 'Regular Bettors', casualPlayers: 'Casual Players',
-        avgBetOver100: 'Avg bet >€100', avgBet10to100: 'Avg bet €10-€100', avgBetUnder10: 'Avg bet <€10',
+        avgBetOver100: 'Avg bet >K100', avgBet10to100: 'Avg bet K10-K100', avgBetUnder10: 'Avg bet <K10',
         lifecycleStages: 'Lifecycle Stages', new: 'New (<30d)', growing: 'Growing', mature: 'Mature', declining: 'Declining', dormant: 'Dormant', churned: 'Churned',
         churnRiskAnalysis: 'Churn Risk Analysis', lessThan7Days: '<7 days', days7to14: '7-14 days', days14to30: '14-30 days', over30Days: '30+ days',
         withdrawingProfits: 'Withdrawing Profits', virtualPhone: 'Virtual Phone', alerts: 'Alerts',
@@ -3527,13 +3527,13 @@ BEHAVIOUR RULES:
         totalPlayers: 'Всего игроков', profitablePlayers: 'Прибыльные игроки', negativeGgrPlayers: 'Убыточные игроки', atRisk: 'В зоне риска', clickToView: 'Нажмите →',
         financialOverview: 'Финансовый обзор', totalDeposits: 'Всего депозитов', totalWithdrawals: 'Всего выводов', netRevenue: 'Чистый доход (GGR)',
         playerPreferences: 'Предпочтения игроков', sportsBettors: 'Ставки на спорт', casinoPlayers: 'Казино игроки', mixedPlayers: 'Смешанные',
-        valueSegments: 'Сегменты ценности', vip: 'VIP (€5k+)', highValue: 'Высокий (€1k-€5k)', mediumValue: 'Средний (€100-€1k)', lowValue: 'Низкий (<€100)',
+        valueSegments: 'Сегменты ценности', vip: 'VIP (K5k+)', highValue: 'Высокий (K1k-K5k)', mediumValue: 'Средний (K100-K1k)', lowValue: 'Низкий (<K100)',
         churnRisk: 'Риск оттока', lowRisk: 'Низкий риск', mediumRisk: 'Средний', highRisk: 'Высокий риск', critical: 'Критический',
         playerProfitabilityAnalysis: 'Анализ прибыльности игроков', lostMoreThanWon: 'Проиграли больше', wonMoreThanLost: 'Выиграли больше',
         companyProfit: 'Прибыль компании', companyLoss: 'Убыток компании', winRateDistribution: 'Распределение винрейта',
         profitable: 'Прибыльный', negativeGgr: 'Убыточный', breakEven: 'Безубыточный', mostProfitable: 'Самые прибыльные',
         playerBehavior: 'Поведение игроков', highRollers: 'Хайроллеры', regularBettors: 'Обычные игроки', casualPlayers: 'Казуальные',
-        avgBetOver100: 'Ср. ставка >€100', avgBet10to100: 'Ср. ставка €10-€100', avgBetUnder10: 'Ср. ставка <€10',
+        avgBetOver100: 'Ср. ставка >K100', avgBet10to100: 'Ср. ставка K10-K100', avgBetUnder10: 'Ср. ставка <K10',
         lifecycleStages: 'Стадии жизненного цикла', new: 'Новые (<30д)', growing: 'Растущие', mature: 'Зрелые', declining: 'Снижающиеся', dormant: 'Спящие', churned: 'Ушедшие',
         churnRiskAnalysis: 'Анализ риска оттока', lessThan7Days: '<7 дней', days7to14: '7-14 дней', days14to30: '14-30 дней', over30Days: '30+ дней',
         withdrawingProfits: 'Выводят прибыль', virtualPhone: 'Виртуальный телефон', alerts: 'Оповещения',
@@ -3588,7 +3588,7 @@ BEHAVIOUR RULES:
     function sanitizePromoCode(code) {
       if (!code) return code;
       const cyrillicToLatin = {
-        'А': 'A', 'В': 'B', 'С': 'C', 'Е': 'E', 'Н': 'H', 'К': '€', 'М': 'M', 
+        'А': 'A', 'В': 'B', 'С': 'C', 'Е': 'E', 'Н': 'H', 'К': 'K', 'М': 'M', 
         'О': 'O', 'Р': 'P', 'Т': 'T', 'Х': 'X', 'У': 'Y', 'З': '3', 'І': 'I',
         'а': 'a', 'с': 'c', 'е': 'e', 'о': 'o', 'р': 'p', 'х': 'x', 'у': 'y',
         'і': 'i', 'ѕ': 's', 'ј': 'j'
@@ -3649,7 +3649,7 @@ BEHAVIOUR RULES:
         financial: { title: 'Financial Overview', body: 'This section shows the financial health of your operations. <strong>Deposits</strong> = money players put in. <strong>Withdrawals</strong> = money players take out. <strong>Net GGR (Gross Gaming Revenue)</strong> = your actual revenue from player activity. A positive GGR means the company is profitable.' },
         profitability_chart: { title: 'Profitability Chart', body: 'This chart shows the distribution between profitable players (green) and negative GGR players (red). Profitable players lose more than they win, generating revenue for the company. Negative GGR players win more than they lose, costing the company money.' },
         churn_chart: { title: 'Churn Risk Chart', body: 'This chart displays how many players are at each churn risk level. Churn means players leaving your platform. Green = active players, Yellow = showing signs of leaving, Orange = high risk of leaving, Red = critical - likely to leave very soon.' },
-        value_segments: { title: 'Value Segments', body: 'Players are categorized by their total activity value: <strong>VIP (€5k+)</strong> = highest value players requiring special attention. <strong>High (€1k-5k)</strong> = significant contributors. <strong>Medium (€100-1k)</strong> = regular players. <strong>Low (less than €100)</strong> = casual or new players.' },
+        value_segments: { title: 'Value Segments', body: 'Players are categorized by their total activity value: <strong>VIP (K5k+)</strong> = highest value players requiring special attention. <strong>High (K1k-5k)</strong> = significant contributors. <strong>Medium (K100-1k)</strong> = regular players. <strong>Low (less than K100)</strong> = casual or new players.' },
         preferences: { title: 'Player Preferences', body: 'Shows what types of games players prefer: <strong>Sports</strong> = primarily bet on sports events. <strong>Casino</strong> = mainly play casino games. <strong>Mixed</strong> = engage with both sports and casino offerings.' },
         churn_risk: { title: 'Churn Risk Levels', body: 'Based on days since last activity: <strong>Low</strong> = active within 7 days. <strong>Medium</strong> = 7-14 days inactive. <strong>High</strong> = 14-30 days inactive. <strong>Critical</strong> = 30+ days inactive. Higher risk means more likely to permanently leave.' },
         alerts: { title: 'Alerts', body: '<strong>Withdrawing</strong> = players taking out more than they deposit (cashing out). <strong>Virtual Phone</strong> = players using virtual/fake phone numbers (potential fraud risk). <strong>High WR</strong> = unusually high win rates that may indicate advantage play or fraud.' },
@@ -3665,7 +3665,7 @@ BEHAVIOUR RULES:
         profit_summary: { title: 'Profit Summary Cards', body: 'The green card shows total profit from losing players. The red card shows total losses from winning players. Click either card to see the individual players in that category.' },
         // Behavior Tab
         behavior: { title: 'Behavior Analysis', body: 'This tab shows player behavioral patterns including betting styles and where players are in their lifecycle with your platform. Understanding behavior helps create targeted marketing and retention strategies.' },
-        betting_styles: { title: 'Betting Styles', body: '<strong>High Rollers</strong> = average bet over €100, valuable but risky - require VIP treatment. <strong>Regular</strong> = average bet €10-100, your core sustainable players. <strong>Casual</strong> = average bet under €10, occasional players who may grow with nurturing.' },
+        betting_styles: { title: 'Betting Styles', body: '<strong>High Rollers</strong> = average bet over K100, valuable but risky - require VIP treatment. <strong>Regular</strong> = average bet K10-100, your core sustainable players. <strong>Casual</strong> = average bet under K10, occasional players who may grow with nurturing.' },
         lifecycle: { title: 'Player Lifecycle', body: 'Shows where players are in their journey: <strong>New</strong> = joined less than 30 days ago. <strong>Growing</strong> = increasing activity. <strong>Mature</strong> = established players. <strong>Declining</strong> = reducing activity. <strong>Dormant</strong> = very inactive. <strong>Churned</strong> = effectively gone.' },
         lifecycle_stages: { title: 'Lifecycle Details', body: '<strong>New players</strong> need onboarding and welcome bonuses. <strong>Growing players</strong> should be nurtured with rewards. <strong>Mature players</strong> need loyalty programs. <strong>Declining/Dormant</strong> need re-engagement campaigns. <strong>Churned</strong> may need win-back offers.' },
         style_cards: { title: 'Betting Style Cards', body: 'Click any card to see players in that betting category. High Rollers are most valuable but riskiest. Regular bettors form your stable revenue base. Casual players may be converted to regular with the right incentives.' },
@@ -3706,7 +3706,7 @@ BEHAVIOUR RULES:
         csv_import: { title: 'CSV Import', body: 'Upload player data from CSV files. The CSV should include: id, phone_number, deposit_amount, withdrawal_amount, total_bet_amount, total_win_amount, and optionally registration_date. Data will be merged with existing records.' },
         parameters: { title: 'Analysis Parameters', body: 'Configure thresholds used for player analysis. Adjust win rate boundaries for profitability classification, value segment thresholds (VIP, High, Medium, Low), churn risk day thresholds, and score component weights. Reset to defaults if needed.' },
         param_profitability: { title: 'Profitability Parameters', body: 'Win rate thresholds that determine profitability categories: <strong>Most Profitable</strong> = WR below first threshold. <strong>Profitable</strong> = WR below second threshold. <strong>Break Even</strong> = WR around 50%. <strong>Negative GGR</strong> = WR above third threshold.' },
-        param_value: { title: 'Value Segment Parameters', body: 'Revenue thresholds for categorizing player value: <strong>VIP</strong> = above VIP threshold (default €5000). <strong>High</strong> = between High and VIP. <strong>Medium</strong> = between Medium and High. <strong>Low</strong> = below Medium threshold.' },
+        param_value: { title: 'Value Segment Parameters', body: 'Revenue thresholds for categorizing player value: <strong>VIP</strong> = above VIP threshold (default K5000). <strong>High</strong> = between High and VIP. <strong>Medium</strong> = between Medium and High. <strong>Low</strong> = below Medium threshold.' },
         param_churn: { title: 'Churn Parameters', body: 'Days of inactivity thresholds for risk levels: <strong>Low</strong> = within first threshold. <strong>Medium</strong> = between first and second. <strong>High</strong> = between second and third. <strong>Critical</strong> = beyond third threshold. Also set weights for churn score calculation.' },
         // AI Assistant
         ai_assistant: { title: 'AI Assistant', body: 'Your intelligent CRM companion. Ask questions in natural language about your player data, get insights, find specific players, or request analysis. Try: Show me high-value players at risk of churning or What is the average LTV of VIP players?' },
@@ -3722,7 +3722,7 @@ BEHAVIOUR RULES:
         financial: { title: 'Финансовый обзор', body: 'Этот раздел показывает финансовое состояние. <strong>Депозиты</strong> = деньги, внесенные игроками. <strong>Выводы</strong> = деньги, выведенные игроками. <strong>Чистый GGR</strong> = ваш фактический доход от игровой активности.' },
         profitability_chart: { title: 'График прибыльности', body: 'Этот график показывает распределение между прибыльными (зеленый) и убыточными (красный) игроками. Прибыльные игроки проигрывают больше, чем выигрывают, генерируя доход для компании.' },
         churn_chart: { title: 'График риска оттока', body: 'Этот график показывает количество игроков на каждом уровне риска оттока. Зеленый = активные игроки, Желтый = признаки ухода, Оранжевый = высокий риск, Красный = критический риск.' },
-        value_segments: { title: 'Сегменты ценности', body: 'Игроки категоризируются по их общей активности: <strong>VIP (€5k+)</strong> = игроки высшей ценности. <strong>Высокий</strong> = значительные вкладчики. <strong>Средний</strong> = обычные игроки. <strong>Низкий</strong> = казуальные игроки.' },
+        value_segments: { title: 'Сегменты ценности', body: 'Игроки категоризируются по их общей активности: <strong>VIP (K5k+)</strong> = игроки высшей ценности. <strong>Высокий</strong> = значительные вкладчики. <strong>Средний</strong> = обычные игроки. <strong>Низкий</strong> = казуальные игроки.' },
         preferences: { title: 'Предпочтения игроков', body: 'Показывает типы игр, которые предпочитают игроки: <strong>Спорт</strong> = в основном ставки на спорт. <strong>Казино</strong> = в основном казино игры. <strong>Смешанные</strong> = используют оба типа.' },
         churn_risk: { title: 'Уровни риска оттока', body: 'На основе дней с последней активности: <strong>Низкий</strong> = активен в течение 7 дней. <strong>Средний</strong> = 7-14 дней неактивен. <strong>Высокий</strong> = 14-30 дней неактивен. <strong>Критический</strong> = 30+ дней неактивен.' },
         alerts: { title: 'Оповещения', body: '<strong>Выводят</strong> = игроки выводят больше, чем вносят. <strong>Виртуальный телефон</strong> = игроки с виртуальными номерами (риск мошенничества). <strong>Высокий WR</strong> = необычно высокий винрейт.' },
@@ -3738,7 +3738,7 @@ BEHAVIOUR RULES:
         profit_summary: { title: 'Карточки прибыли', body: 'Зеленая карточка показывает общую прибыль от проигрывающих игроков. Красная - убытки от выигрывающих. Нажмите на карточку для просмотра игроков.' },
         // Behavior Tab
         behavior: { title: 'Анализ поведения', body: 'Эта вкладка показывает поведенческие паттерны игроков, включая стили ставок и стадии жизненного цикла. Понимание поведения помогает создавать целевые стратегии.' },
-        betting_styles: { title: 'Стили ставок', body: '<strong>Хайроллеры</strong> = средняя ставка более €100, ценные но рискованные. <strong>Обычные</strong> = средняя ставка €10-100, ваша основа. <strong>Казуальные</strong> = средняя ставка менее €10.' },
+        betting_styles: { title: 'Стили ставок', body: '<strong>Хайроллеры</strong> = средняя ставка более K100, ценные но рискованные. <strong>Обычные</strong> = средняя ставка K10-100, ваша основа. <strong>Казуальные</strong> = средняя ставка менее K10.' },
         lifecycle: { title: 'Жизненный цикл', body: 'Показывает где игроки находятся в их пути: <strong>Новые</strong> = зарегистрировались менее 30 дней назад. <strong>Растущие</strong> = увеличивают активность. <strong>Зрелые</strong> = установившиеся игроки.' },
         lifecycle_stages: { title: 'Стадии цикла', body: '<strong>Новым</strong> нужен онбординг и приветственные бонусы. <strong>Растущих</strong> нужно развивать. <strong>Зрелым</strong> нужны программы лояльности. <strong>Снижающимся/Спящим</strong> нужны кампании реактивации.' },
         style_cards: { title: 'Карточки стилей', body: 'Нажмите на карточку для просмотра игроков этой категории. Хайроллеры самые ценные но рискованные. Обычные - стабильная база дохода.' },
@@ -3779,7 +3779,7 @@ BEHAVIOUR RULES:
         csv_import: { title: 'Импорт CSV', body: 'Загрузите данные игроков из CSV файлов. CSV должен содержать: id, phone_number, deposit_amount, withdrawal_amount, total_bet_amount, total_win_amount и опционально registration_date.' },
         parameters: { title: 'Параметры анализа', body: 'Настройте пороги для анализа игроков. Регулируйте границы винрейта для классификации прибыльности, пороги сегментов ценности, пороги дней для риска оттока и веса компонентов оценки.' },
         param_profitability: { title: 'Параметры прибыльности', body: 'Пороги винрейта для категорий прибыльности: <strong>Самые прибыльные</strong> = WR ниже первого порога. <strong>Прибыльные</strong> = WR ниже второго. <strong>Безубыточные</strong> = WR около 50%. <strong>Убыточные</strong> = WR выше третьего.' },
-        param_value: { title: 'Параметры ценности', body: 'Пороги дохода для сегментов: <strong>VIP</strong> = выше порога VIP (по умолчанию €5000). <strong>Высокий</strong> = между Высоким и VIP. <strong>Средний</strong> = между Средним и Высоким. <strong>Низкий</strong> = ниже порога Среднего.' },
+        param_value: { title: 'Параметры ценности', body: 'Пороги дохода для сегментов: <strong>VIP</strong> = выше порога VIP (по умолчанию K5000). <strong>Высокий</strong> = между Высоким и VIP. <strong>Средний</strong> = между Средним и Высоким. <strong>Низкий</strong> = ниже порога Среднего.' },
         param_churn: { title: 'Параметры оттока', body: 'Пороги дней неактивности: <strong>Низкий</strong> = в пределах первого порога. <strong>Средний</strong> = между первым и вторым. <strong>Высокий</strong> = между вторым и третьим. <strong>Критический</strong> = за третьим порогом.' },
         // AI Assistant
         ai_assistant: { title: 'AI Ассистент', body: 'Ваш интеллектуальный помощник CRM. Задавайте вопросы на естественном языке о данных игроков, получайте инсайты, находите игроков или запрашивайте анализ.' },
@@ -4463,7 +4463,7 @@ BEHAVIOUR RULES:
       App.processedPlayers.forEach(p => { const sc = p.churnScore||0; if(sc<20)buckets[0]++;else if(sc<40)buckets[1]++;else if(sc<60)buckets[2]++;else if(sc<80)buckets[3]++;else buckets[4]++; });
       createChart('churnScoreChart', 'bar', ['0-20', '20-40', '40-60', '60-80', '80-100'], buckets, ['#10B981', '#84CC16', '#F59E0B', '#F97316', '#EF4444']);
       
-      createChart('ltvDistChart', 'bar', ['<€1k', '€1k-10k', '€10k-50k', '€50k+'], [s.ltvLow, s.ltvMed, s.ltvHigh, s.ltvVip], ['#94A3B8', '#3B82F6', '#8B5CF6', '#F59E0B']);
+      createChart('ltvDistChart', 'bar', ['<K1k', 'K1k-10k', 'K10k-50k', 'K50k+'], [s.ltvLow, s.ltvMed, s.ltvHigh, s.ltvVip], ['#94A3B8', '#3B82F6', '#8B5CF6', '#F59E0B']);
       
       updateComparison();
       
@@ -5898,8 +5898,8 @@ Total Players: ${s.total}`;
         const pctChange = (curr, prev) => { if (!prev || prev===0) return {text:'NEW',cls:'trend-up'}; const pct=((curr-prev)/prev*100); if(pct>0) return {text:'↑'+pct.toFixed(0)+'%',cls:'trend-up'}; if(pct<0) return {text:'↓'+Math.abs(pct).toFixed(0)+'%',cls:'trend-down'}; return {text:'→0%',cls:'trend-flat'}; };
 
         document.getElementById('trend-clients-val').textContent = tw.clients;
-        document.getElementById('trend-losses-val').textContent = '€' + tw.losses.toLocaleString();
-        document.getElementById('trend-earnings-val').textContent = '€' + tw.earnings.toLocaleString();
+        document.getElementById('trend-losses-val').textContent = 'K' + tw.losses.toLocaleString();
+        document.getElementById('trend-earnings-val').textContent = 'K' + tw.earnings.toLocaleString();
         
         if (lw) {
           const cc = pctChange(tw.clients, lw.clients); document.getElementById('trend-clients-change').textContent = cc.text; document.getElementById('trend-clients-change').className = 'text-xs font-bold ' + cc.cls;
@@ -6005,8 +6005,8 @@ Total Players: ${s.total}`;
         document.getElementById('agent-total-count').textContent = active.length;
         document.getElementById('agent-pending-count').textContent = pending.length;
         document.getElementById('agent-total-signups').textContent = totalClients;
-        document.getElementById('agent-total-losses').textContent = '€' + totalLosses.toLocaleString();
-        document.getElementById('agent-pending-payments').textContent = '€' + pendingPayments.toLocaleString();
+        document.getElementById('agent-total-losses').textContent = 'K' + totalLosses.toLocaleString();
+        document.getElementById('agent-pending-payments').textContent = 'K' + pendingPayments.toLocaleString();
         document.getElementById('agent-plan-a-count').textContent = planA.length;
         document.getElementById('agent-plan-b-count').textContent = planB.length;
         document.getElementById('agent-plan-c-count').textContent = planC.length;
@@ -6023,7 +6023,7 @@ Total Players: ${s.total}`;
         const container = document.getElementById('leaderboard-' + type);
         if (!container || data.length === 0) { if (container) container.innerHTML = '<div class="p-4 text-center text-slate-400">No data yet</div>'; return; }
         const key = type === 'signups' ? 'totalClients' : type === 'deposits' ? 'totalLosses' : 'totalEarnings';
-        const prefix = type === 'signups' ? '' : '€';
+        const prefix = type === 'signups' ? '' : 'K';
         container.innerHTML = data.map((a, i) => {
           const medal = i === 0 ? '🥇' : i === 1 ? '🥈' : i === 2 ? '🥉' : `${i+1}.`;
           const planBadge = a.commission_plan === 'per_client' ? 'A' : a.commission_plan === 'loss_based' ? 'B' : 'C';
@@ -6092,7 +6092,7 @@ Total Players: ${s.total}`;
         if (idx !== -1) { this.agents[idx].status = 'active'; this.agents[idx].is_active = true; }
         this.renderApprovals(); this.updateApprovalsBadge(); this.renderOverview();
         // Telegram notification
-        const planLabels = { per_client: 'Plan A (€100/client)', loss_based: 'Plan B (20% losses)', nil: 'Nil' };
+        const planLabels = { per_client: 'Plan A (K100/client)', loss_based: 'Plan B (20% losses)', nil: 'Nil' };
         TelegramManager.sendToAll(`✅ <b>Agent Approved</b>\n\n👤 ${a?.name || 'Unknown'}\n🔗 Code: <code>${a?.promo_code || '?'}</code>\n📋 ${planLabels[a?.commission_plan] || '?'}\n📱 ${a?.phone || '-'}`);
         alert('Agent approved!');
       },
@@ -6160,7 +6160,7 @@ Total Players: ${s.total}`;
             <td class="px-3 py-3 text-center">${planLabels[a.commission_plan] || '-'}</td>
             <td class="px-3 py-3 text-center">${tierBadge}</td>
             <td class="px-3 py-3 text-center text-sm">${stats.totalClients}</td>
-            <td class="px-3 py-3 text-center text-sm font-medium ${stats.balance > 0 ? 'text-orange-600' : ''}">€${stats.balance.toLocaleString()}</td>
+            <td class="px-3 py-3 text-center text-sm font-medium ${stats.balance > 0 ? 'text-orange-600' : ''}">K${stats.balance.toLocaleString()}</td>
             <td class="px-3 py-3 text-center"><span class="px-2 py-0.5 bg-${sc}-100 text-${sc}-700 rounded text-xs">${a.status}</span></td>
             <td class="px-3 py-3 text-center">
               <button onclick="AgentManager.editAgent('${a.id}')" class="text-blue-600 hover:underline text-xs mr-1">Edit</button>
@@ -6501,10 +6501,10 @@ Total Players: ${s.total}`;
           const tierLabel = tier ? ` [${tier.emoji}${tier.tier_name}]` : '';
           if (ad.agent.commission_plan === 'per_client') {
             const rate = tier ? tier.per_client_amount : 100;
-            msg += `${ad.agent.promo_code}${tierLabel}: ${ad.qualifyingClients}/${ad.totalClients} × €${rate} → €${total}\n`;
+            msg += `${ad.agent.promo_code}${tierLabel}: ${ad.qualifyingClients}/${ad.totalClients} × K${rate} → K${total}\n`;
           } else if (ad.agent.commission_plan === 'loss_based') {
             const rate = tier ? tier.loss_based_rate : 20;
-            msg += `${ad.agent.promo_code}${tierLabel}: €${ad.totalLosses} × ${rate}% → €${Math.round(total)}\n`;
+            msg += `${ad.agent.promo_code}${tierLabel}: K${ad.totalLosses} × ${rate}% → K${Math.round(total)}\n`;
           } else {
             msg += `${ad.agent.promo_code}: ${ad.totalClients} clients (nil)\n`;
           }
@@ -6518,10 +6518,10 @@ Total Players: ${s.total}`;
           const t = d.perClientEarnings + d.lossBasedEarnings; totalCommission += t;
           const tier = this.getAgentTier(d.qualifyingClients);
           const te = tier ? tier.emoji : '';
-          if (d.agent.commission_plan === 'per_client') tgMsg += `• ${te}${d.agent.promo_code}: ${d.qualifyingClients}/${d.totalClients} → €${t}\n`;
-          else if (d.agent.commission_plan === 'loss_based') { const r = tier ? tier.loss_based_rate : 20; tgMsg += `• ${te}${d.agent.promo_code}: ${r}% of €${Math.round(d.totalLosses)} → €${Math.round(t)}\n`; }
+          if (d.agent.commission_plan === 'per_client') tgMsg += `• ${te}${d.agent.promo_code}: ${d.qualifyingClients}/${d.totalClients} → K${t}\n`;
+          else if (d.agent.commission_plan === 'loss_based') { const r = tier ? tier.loss_based_rate : 20; tgMsg += `• ${te}${d.agent.promo_code}: ${r}% of K${Math.round(d.totalLosses)} → K${Math.round(t)}\n`; }
         }
-        tgMsg += `\n💰 <b>Total: €${Math.round(totalCommission)}</b>`;
+        tgMsg += `\n💰 <b>Total: K${Math.round(totalCommission)}</b>`;
         TelegramManager.sendToAll(tgMsg);
 
         document.getElementById('playerActivityFile').value = '';
@@ -6543,9 +6543,9 @@ Total Players: ${s.total}`;
       loadAgentBalance() {
         const agentId = document.getElementById('paymentAgentSelect')?.value;
         const el = document.getElementById('paymentAgentBalance');
-        if (!agentId) { el.textContent = '€0'; return; }
+        if (!agentId) { el.textContent = 'K0'; return; }
         const stats = this.getAgentStats(agentId);
-        el.textContent = '€' + stats.balance.toLocaleString();
+        el.textContent = 'K' + stats.balance.toLocaleString();
       },
 
       async recordPayment() {
@@ -6566,7 +6566,7 @@ Total Players: ${s.total}`;
           this.payments.unshift(data);
           ['paymentAmount','paymentDate','paymentNotes'].forEach(id => { const el = document.getElementById(id); if (el) el.value = ''; });
           document.getElementById('paymentAgentSelect').value = '';
-          document.getElementById('paymentAgentBalance').textContent = '€0';
+          document.getElementById('paymentAgentBalance').textContent = 'K0';
           this.renderPaymentsTable(); this.renderOverview();
           alert('Payment recorded!');
         } catch(e) { alert('Error: ' + (e.message || 'Unknown')); }
@@ -6583,7 +6583,7 @@ Total Players: ${s.total}`;
           const a = p.agents || this.agents.find(x => x.id === p.agent_id);
           return `<tr class="border-t hover:bg-slate-50">
             <td class="px-4 py-3"><div class="font-medium text-sm">${a?.name || '?'}</div><div class="text-xs text-slate-400">${a?.promo_code || ''}</div></td>
-            <td class="px-4 py-3 font-bold text-sm">€${parseFloat(p.amount).toLocaleString()}</td>
+            <td class="px-4 py-3 font-bold text-sm">K${parseFloat(p.amount).toLocaleString()}</td>
             <td class="px-4 py-3 text-xs capitalize">${p.payment_method || '-'}</td>
             <td class="px-4 py-3 text-xs">${p.payment_date || '-'}</td>
             <td class="px-4 py-3 text-center"><span class="px-2 py-0.5 bg-${sc[p.status]}-100 text-${sc[p.status]}-700 rounded text-xs capitalize">${p.status}</span></td>
@@ -6779,7 +6779,7 @@ Total Players: ${s.total}`;
           const tier = this.getAgentTier(activeClients);
           const nextTier = this.getNextTier(activeClients);
           const badge = this.getTierBadge(tier);
-          const rate = tier ? (a.commission_plan === 'per_client' ? `€${tier.per_client_amount}` : `${tier.loss_based_rate}%`) : (a.commission_plan === 'per_client' ? '€100' : '20%');
+          const rate = tier ? (a.commission_plan === 'per_client' ? `K${tier.per_client_amount}` : `${tier.loss_based_rate}%`) : (a.commission_plan === 'per_client' ? 'K100' : '20%');
           const nextInfo = nextTier ? `${nextTier.emoji} ${nextTier.tier_name} (${nextTier.min_active_clients - activeClients} more)` : '<span class="text-emerald-600 font-bold">MAX</span>';
           const pc = planColors[a.commission_plan] || 'slate';
 
@@ -6813,12 +6813,12 @@ Total Players: ${s.total}`;
             <td class="px-4 py-3 text-center">
               ${p.prize_status === 'pending' && canEdit ? `
                 <div class="flex items-center justify-center gap-1">
-                  <span class="font-bold text-emerald-700">€${parseFloat(p.cash_prize || 0).toLocaleString()}</span>
+                  <span class="font-bold text-emerald-700">K${parseFloat(p.cash_prize || 0).toLocaleString()}</span>
                   <button onclick="AgentManager.editPrizeAmount('${p.id}')" class="text-blue-500 hover:text-blue-700" title="Edit prize amount">
                     <i data-lucide="pencil" class="h-3.5 w-3.5"></i>
                   </button>
                 </div>
-              ` : `<span class="font-bold">€${parseFloat(p.cash_prize || 0).toLocaleString()}</span>`}
+              ` : `<span class="font-bold">K${parseFloat(p.cash_prize || 0).toLocaleString()}</span>`}
             </td>
             <td class="px-4 py-3 text-center"><span class="px-2 py-0.5 bg-${sc}-100 text-${sc}-700 rounded text-xs capitalize font-medium">${p.prize_status}</span></td>
             <td class="px-4 py-3 text-xs text-slate-500 max-w-[150px] truncate" title="${p.notes || ''}">${p.notes || '-'}</td>
@@ -6841,7 +6841,7 @@ Total Players: ${s.total}`;
         if (!p) return;
         const agent = this.agents.find(a => a.id === p.agent_id);
         const currentAmount = parseFloat(p.cash_prize || 0);
-        const newAmount = prompt(`Edit cash prize for ${agent?.name || 'agent'} (${p.new_tier} tier)\n\nCurrent: €${currentAmount.toLocaleString()}\nEnter new amount (K):`, currentAmount);
+        const newAmount = prompt(`Edit cash prize for ${agent?.name || 'agent'} (${p.new_tier} tier)\n\nCurrent: K${currentAmount.toLocaleString()}\nEnter new amount (K):`, currentAmount);
         if (newAmount === null) return;
         const parsed = parseFloat(newAmount);
         if (isNaN(parsed) || parsed < 0) { alert('Invalid amount'); return; }
@@ -6859,7 +6859,7 @@ Total Players: ${s.total}`;
         if (!p) return;
         const agent = this.agents.find(a => a.id === p.agent_id);
         const amount = parseFloat(p.cash_prize || 0);
-        if (!confirm(`Confirm payment of €${amount.toLocaleString()} to ${agent?.name || 'agent'}?\n\nTier: ${p.new_tier}\nThis is a manual payment — make sure the money has been sent.`)) return;
+        if (!confirm(`Confirm payment of K${amount.toLocaleString()} to ${agent?.name || 'agent'}?\n\nTier: ${p.new_tier}\nThis is a manual payment — make sure the money has been sent.`)) return;
         const note = prompt('Payment note (optional — e.g. "paid via mobile money"):', '') || '';
         const notesUpdate = note ? (p.notes ? p.notes + '; PAID: ' + note : 'PAID: ' + note) : p.notes;
         const { error } = await App.db.from('tier_promotions').update({ prize_status: 'paid', paid_at: new Date().toISOString(), notes: notesUpdate }).eq('id', promoId);
@@ -6867,7 +6867,7 @@ Total Players: ${s.total}`;
         p.prize_status = 'paid'; p.paid_at = new Date().toISOString(); p.notes = notesUpdate;
         this.renderTierPromotions();
         if (agent) {
-          TelegramManager.sendToAll(`🎁 <b>Cash Prize Paid!</b>\n\n👤 ${agent.name} (${agent.promo_code})\n🏅 Tier: ${p.new_tier}\n💰 Prize: €${amount.toLocaleString()}${note ? '\n📝 ' + note : ''}`);
+          TelegramManager.sendToAll(`🎁 <b>Cash Prize Paid!</b>\n\n👤 ${agent.name} (${agent.promo_code})\n🏅 Tier: ${p.new_tier}\n💰 Prize: K${amount.toLocaleString()}${note ? '\n📝 ' + note : ''}`);
         }
       },
 
@@ -6909,7 +6909,7 @@ Total Players: ${s.total}`;
           }).select().single();
           if (!error && data) {
             this.tierPromotions.unshift(data);
-            TelegramManager.sendToAll(`🏅 <b>Agent Tier Up!</b>\n\n👤 ${agent.name} (${agent.promo_code})\n${currentTier.emoji} <b>${previousTier || 'None'} → ${currentTier.tier_name}</b>\n👥 Active clients: ${activeClients}\n🎁 Cash prize: €${currentTier.cash_prize.toLocaleString()}\n\n⏳ <i>Prize payment pending</i>`);
+            TelegramManager.sendToAll(`🏅 <b>Agent Tier Up!</b>\n\n👤 ${agent.name} (${agent.promo_code})\n${currentTier.emoji} <b>${previousTier || 'None'} → ${currentTier.tier_name}</b>\n👥 Active clients: ${activeClients}\n🎁 Cash prize: K${currentTier.cash_prize.toLocaleString()}\n\n⏳ <i>Prize payment pending</i>`);
           }
         } catch(e) { console.error('Tier promotion error:', e); }
       },
@@ -11696,17 +11696,17 @@ Total Players: ${s.total}`;
                   <div class="flex items-center gap-2 mt-1 flex-wrap">${topFlags}</div>
                 </div>
                 <div class="text-right text-xs text-slate-500 flex-shrink-0">
-                  <div>Dep: €${(r.total_deposits||0).toLocaleString()}</div>
-                  <div>Bets: €${(r.total_bets||0).toLocaleString()}</div>
-                  <div>Wins: €${(r.total_wins||0).toLocaleString()}</div>
+                  <div>Dep: K${(r.total_deposits||0).toLocaleString()}</div>
+                  <div>Bets: K${(r.total_bets||0).toLocaleString()}</div>
+                  <div>Wins: K${(r.total_wins||0).toLocaleString()}</div>
                 </div>
                 <i data-lucide="chevron-down" class="h-4 w-4 text-slate-400 flex-shrink-0"></i>
               </div>
               <div id="fraud-detail-${r.id}" class="hidden mt-3 pt-3 border-t border-slate-200">
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-2 mb-3 text-xs">
-                  <div><span class="text-slate-500">First Deposit:</span> €${(r.first_deposit||0).toLocaleString()}</div>
-                  <div><span class="text-slate-500">Total Deposits:</span> €${(r.total_deposits||0).toLocaleString()}</div>
-                  <div><span class="text-slate-500">Total Withdrawals:</span> €${(r.total_withdrawals||0).toLocaleString()}</div>
+                  <div><span class="text-slate-500">First Deposit:</span> K${(r.first_deposit||0).toLocaleString()}</div>
+                  <div><span class="text-slate-500">Total Deposits:</span> K${(r.total_deposits||0).toLocaleString()}</div>
+                  <div><span class="text-slate-500">Total Withdrawals:</span> K${(r.total_withdrawals||0).toLocaleString()}</div>
                   <div><span class="text-slate-500">Bet Count:</span> ${r.bet_count||0}</div>
                 </div>
                 <p class="text-xs font-semibold text-slate-600 mb-2">All Flags (${flags.length}):</p>
@@ -12049,7 +12049,7 @@ Total Players: ${s.total}`;
       },
 
       // ── Rendering ───────────────────────────────────────────────
-      _fmtK(n) { return "€" + (Math.round(n) || 0).toLocaleString(); },
+      _fmtK(n) { return "K" + (Math.round(n) || 0).toLocaleString(); },
 
       _actionBadge(action, label, color) {
         var colors = { red: "bg-red-100 text-red-700", blue: "bg-blue-100 text-blue-700", emerald: "bg-emerald-100 text-emerald-700", amber: "bg-amber-100 text-amber-700", purple: "bg-purple-100 text-purple-700", teal: "bg-teal-100 text-teal-700", slate: "bg-slate-100 text-slate-600" };
