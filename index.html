@@ -429,7 +429,7 @@
           </div>
           <div class="clickable-card bg-white rounded-xl p-5 shadow-sm" onclick="switchTab('players')">
             <div class="flex items-center justify-between">
-              <div><p class="text-sm text-slate-500 flex items-center gap-1">Total GGR</p><p class="text-3xl font-bold text-emerald-600 mt-1" id="metric-total-ggr">&euro;0</p><p class="text-xs text-emerald-500" id="metric-profit-amount"></p></div>
+              <div><p class="text-sm text-slate-500 flex items-center gap-1">Total GGR</p><p class="text-3xl font-bold text-emerald-600 mt-1" id="metric-total-ggr">K0</p><p class="text-xs text-emerald-500" id="metric-profit-amount"></p></div>
               <div class="p-3 bg-emerald-100 rounded-xl"><i data-lucide="bar-chart-3" class="h-6 w-6 text-emerald-600"></i></div>
             </div>
           </div>
@@ -2265,7 +2265,7 @@
                       <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
                         <div><label class="block text-xs font-medium text-slate-600 mb-1">Tone</label><select id="va-sb-tone" class="w-full px-3 py-2 border rounded-lg text-sm"><option value="friendly">Friendly & Casual</option><option value="professional">Professional</option><option value="energetic">Energetic</option></select></div>
                         <div><label class="block text-xs font-medium text-slate-600 mb-1">Max Response Words</label><input id="va-sb-maxwords" type="number" value="15" min="8" max="30" class="w-full px-3 py-2 border rounded-lg text-sm"></div>
-                        <div><label class="block text-xs font-medium text-slate-600 mb-1">Currency Format</label><input id="va-sb-currency" type="text" value="euro" class="w-full px-3 py-2 border rounded-lg text-sm"></div>
+                        <div><label class="block text-xs font-medium text-slate-600 mb-1">Currency Format</label><input id="va-sb-currency" type="text" value="kwacha" class="w-full px-3 py-2 border rounded-lg text-sm"></div>
                       </div>
                     </div>
                     <div class="mb-5 p-4 bg-slate-50 rounded-xl border border-slate-200">
@@ -2309,7 +2309,7 @@ BEHAVIOUR RULES:
                   <p class="text-emerald-200 text-xs mt-1">Used to answer clarifying questions. If no match, Natasha says "I am not able to help with that" and continues.</p>
                 </div>
                 <div class="p-4">
-                  <textarea id="va-sb-kb" rows="10" placeholder="Q: How much is the bonus?&#10;A: One hundred Euro, completely free, no strings attached.&#10;&#10;Q: Is this Bola Bet?&#10;A: No, this is 100xBet, an international sports betting company at 100xbet.com." class="w-full px-3 py-2 border rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-emerald-400 font-mono resize-y"></textarea>
+                  <textarea id="va-sb-kb" rows="10" placeholder="Q: How much is the bonus?&#10;A: One hundred Kwacha, completely free, no strings attached.&#10;&#10;Q: Is this Bola Bet?&#10;A: No, this is 100xBet, an international sports betting company at 100xbet.com." class="w-full px-3 py-2 border rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-emerald-400 font-mono resize-y"></textarea>
                 </div>
               </div>
 
@@ -4005,7 +4005,7 @@ BEHAVIOUR RULES:
     // UTILITIES
     // ============================================================
     const debounce = (fn, delay) => { let t; return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), delay); }; };
-    const formatK = v => '\u20AC' + (v || 0).toLocaleString();
+    const formatK = v => 'K' + (v || 0).toLocaleString();
     const formatPct = v => (v || 0).toFixed(1) + '%';
     const setText = (id, v) => { const el = document.getElementById(id); if (el) el.textContent = v; };
 
@@ -9495,7 +9495,7 @@ Total Players: ${s.total}`;
           if (el) el.value = '';
         });
         document.getElementById('va-sb-maxwords').value = 15;
-        document.getElementById('va-sb-currency').value = 'euro';
+        document.getElementById('va-sb-currency').value = 'kwacha';
         document.getElementById('va-sb-tone').value = 'friendly';
         document.getElementById('va-sb-stability').value = 0.5;
         document.getElementById('va-sb-similarity').value = 0.8;
@@ -9523,7 +9523,7 @@ Total Players: ${s.total}`;
           document.getElementById('va-sb-offer2-details').value = s.offer_2_details || '';
           document.getElementById('va-sb-claim').value = s.how_to_claim || '';
           document.getElementById('va-sb-maxwords').value = s.max_response_words || 15;
-          document.getElementById('va-sb-currency').value = s.currency_format || 'euro';
+          document.getElementById('va-sb-currency').value = s.currency_format || 'kwacha';
           document.getElementById('va-sb-tone').value = s.tone || 'friendly';
           document.getElementById('va-sb-silence').value = s.silence_nudge || '';
           document.getElementById('va-sb-notinterested').value = s.not_interested_goodbye || '';
@@ -9560,7 +9560,7 @@ Total Players: ${s.total}`;
           offer_2_details: document.getElementById('va-sb-offer2-details').value.trim(),
           how_to_claim: document.getElementById('va-sb-claim').value.trim(),
           max_response_words: parseInt(document.getElementById('va-sb-maxwords').value) || 15,
-          currency_format: document.getElementById('va-sb-currency').value.trim() || 'euro',
+          currency_format: document.getElementById('va-sb-currency').value.trim() || 'kwacha',
           tone: document.getElementById('va-sb-tone').value,
           silence_nudge: document.getElementById('va-sb-silence').value.trim(),
           not_interested_goodbye: document.getElementById('va-sb-notinterested').value.trim(),
@@ -10909,7 +10909,7 @@ Total Players: ${s.total}`;
         const id = idCol ? String(row[idCol]).trim() : null;
         if (!id) { skipped++; continue; }
 
-        const player = { id, currency: 'EUR' };
+        const player = { id, currency: 'ZMW' };
         
         const addField = (field, parser = v => v) => {
           const col = findCol(row, field);

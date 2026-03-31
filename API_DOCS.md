@@ -29,7 +29,7 @@ x-api-key: your-key
     "username": "player123",
     "name": "John Doe",
     "status": "active",
-    "currency": "EUR",
+    "currency": "ZMW",
     "registration_date": "2025-06-15T10:00:00Z",
 
     "deposit_amount": 1500.00,
@@ -106,7 +106,7 @@ x-api-key: your-key
 | `username` | string | |
 | `name` | string | Full name |
 | `status` | string | e.g. "active", "banned", "suspended" |
-| `currency` | string | Default: "EUR" |
+| `currency` | string | Default: "ZMW" |
 | `registration_date` | datetime | Account creation date |
 | `affiliate_id` | integer | ID of the user who referred this player |
 | `vip_level` | string | e.g. "VIP Level 1", "Gold", etc. |
